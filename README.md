@@ -46,7 +46,7 @@ Create the .env file
 
 ```
 NPM_TOKEN=from npm
-APP_ID=from github app, using client id
+APP_ID=from github app
 APP_PRIVATE_KEY=from github app
 
 ```
