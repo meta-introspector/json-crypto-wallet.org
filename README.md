@@ -45,9 +45,9 @@ npx prettier . --write
 Create the .env file
 
 ```
-NPM_TOKEN=
-APP_ID=
-APP_PRIVATE_KEY=
+NPM_TOKEN=from npm
+APP_ID=from github app, using client id
+APP_PRIVATE_KEY=from github app
 
 ```
 
