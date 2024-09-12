@@ -5,6 +5,5 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   rules: {
     'no-redeclare': 'off',
-    '@next/next/no-html-link-for-pages': 'off',
   },
 };

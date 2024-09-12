@@ -3,10 +3,7 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  rules: {
-    '@next/next/no-html-link-for-pages': 'off',
-    '@next/next/no-sync-scripts': 'off',
-  },
+  rules: {},
   env: {
     browser: true,
     es2021: true,

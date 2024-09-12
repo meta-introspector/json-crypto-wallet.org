@@ -21,6 +21,9 @@ importers:
       '@chromatic-com/storybook':
         specifier: ^1.9.0
         version: 1.9.0(react@18.3.1)
+      '@next/eslint-plugin-next':
+        specifier: ^14.2.10
+        version: 14.2.10
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -2749,6 +2752,9 @@ packages:
 
   '@next/env@14.2.5':
     resolution: {integrity: sha512-/zZGkrTOsraVfYjGP8uM0p6r0BDT6xWpkjdVbcz66PJVSpwXX3yNiRycxAuDfBKGWBrZBXRuK/YVlkNgxHGwmA==}
+
+  '@next/eslint-plugin-next@14.2.10':
+    resolution: {integrity: sha512-LqJcPP5QkmKewpwO3zX8SoVfWwKn5NKwfcs/j52oJa5EsEDyUsqjsmj5IRzmAJA0FSuB4umhjG55AGayY306fw==}
 
   '@next/eslint-plugin-next@14.2.5':
     resolution: {integrity: sha512-LY3btOpPh+OTIpviNojDpUdIbHW9j0JBYBjsIp8IxtDFfYFyORvw3yNq6N231FVqQA7n7lwaf7xHbVJlA1ED7g==}
@@ -16923,6 +16929,10 @@ snapshots:
       tar-fs: 2.1.1
 
   '@next/env@14.2.5': {}
+
+  '@next/eslint-plugin-next@14.2.10':
+    dependencies:
+      glob: 10.3.10
 
   '@next/eslint-plugin-next@14.2.5':
     dependencies:

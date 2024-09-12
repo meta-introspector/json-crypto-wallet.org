@@ -35,7 +35,6 @@ export default async function Layout({ children }) {
         <link rel="dns-prefetch" href="//static.getclicky.com" />
         {(process.env.NODE_ENV === 'development' ||
           process.env.VERCEL_ENV === 'preview') && (
-          // eslint-disable-next-line @next/next/no-sync-scripts
           <script
             data-project-id="3T7wRdtjOmyutEJb4CkBwQmBQqnzIsTTBh1ypGGP"
             data-is-production-environment="false"

@@ -23,7 +23,6 @@ export default function Jobs({ params }) {
     };
 
     fetchData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const makeCoverletter = async (job) => {

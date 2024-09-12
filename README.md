@@ -38,6 +38,7 @@ To start all applications:
 ```sh
 pnpm i -D @storybook/cli
 pnpm turbo dev
+npx prettier . --write
 ```
 
 To start an individual application, such as the registry:
