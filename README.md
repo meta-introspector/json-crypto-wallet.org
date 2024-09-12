@@ -41,6 +41,27 @@ pnpm turbo dev
 npx prettier . --write
 ```
 
+
+Create the .env file
+
+```
+NPM_TOKEN=
+APP_ID=
+APP_PRIVATE_KEY=
+
+```
+
+Set the secrets
+```
+gh secret set -f .env  -R meta-introspector/json-crypto-wallet.org
+```
+
+```
+✓ Set Actions secret NPM_TOKEN for meta-introspector/json-crypto-wallet.org
+✓ Set Actions secret APP_ID for meta-introspector/json-crypto-wallet.org
+✓ Set Actions secret APP_PRIVATE_KEY for meta-introspector/json-crypto-wallet.org
+```
+
 To start an individual application, such as the registry:
 
 ```sh
