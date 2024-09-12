@@ -21,6 +21,7 @@ jobs:
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: meta-introspector
           repositories: json-crypto-wallet.org
+
       - uses: meta-introspector/checkout@v3
       - uses: meta-introspector/action-setup@v2
         with:
